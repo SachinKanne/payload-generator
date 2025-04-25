@@ -1,0 +1,281 @@
+{
+    "Performance Test Run (ff0df22a-ad52-47e4-8332-419fc5740310)": {
+        "input_payload": {
+            "loads": [
+                {
+                    "load_name": "nebula-multiEntity",
+                    "load_type": "nebula",
+                    "concurrent_users": "200",
+                    "think_time": "15000",
+                    "load_tps": "NA"
+                },
+                {
+                    "load_name": "nebula-multiEntity-cisco",
+                    "load_type": "nebula",
+                    "concurrent_users": "50",
+                    "think_time": "15000",
+                    "load_tps": "NA"
+                },
+                {
+                    "load_name": "nebula-topUserFlow",
+                    "load_type": "nebula",
+                    "concurrent_users": "150",
+                    "think_time": "12000",
+                    "load_tps": "NA"
+                },
+                {
+                    "load_name": "nebula-hvsFlow",
+                    "load_type": "nebula",
+                    "concurrent_users": "50",
+                    "think_time": "12000",
+                    "load_tps": "NA"
+                },
+                {
+                    "load_name": "nebula-reports",
+                    "load_type": "nebula",
+                    "concurrent_users": "10",
+                    "think_time": "15000",
+                    "load_tps": "NA"
+                },
+                {
+                    "load_name": "nebula-dashboards",
+                    "load_type": "nebula",
+                    "concurrent_users": "10",
+                    "think_time": "15000",
+                    "load_tps": "NA"
+                },
+                {
+                    "load_name": "replayforce-A",
+                    "load_type": "replayforce",
+                    "concurrent_users": "NA",
+                    "think_time": "NA",
+                    "load_tps": "20"
+                },
+                {
+                    "load_name": "replayforce-aprst",
+                    "load_type": "replayforce",
+                    "concurrent_users": "NA",
+                    "think_time": "NA",
+                    "load_tps": "20"
+                },
+                {
+                    "load_name": "replayforce-U",
+                    "load_type": "replayforce",
+                    "concurrent_users": "NA",
+                    "think_time": "NA",
+                    "load_tps": "20"
+                },
+                {
+                    "load_name": "chatter",
+                    "load_type": "jmeter",
+                    "concurrent_users": "15",
+                    "think_time": "700",
+                    "load_tps": "15"
+                },
+                {
+                    "load_name": "apex-rest",
+                    "load_type": "jmeter",
+                    "concurrent_users": "10",
+                    "think_time": "500",
+                    "load_tps": "10"
+                },
+                {
+                    "load_name": "apex-soap",
+                    "load_type": "jmeter",
+                    "concurrent_users": "10",
+                    "think_time": "500",
+                    "load_tps": "5"
+                },
+                {
+                    "load_name": "write",
+                    "load_type": "jmeter",
+                    "concurrent_users": "15",
+                    "think_time": "500",
+                    "load_tps": "15"
+                },
+                {
+                    "load_name": "reports",
+                    "load_type": "jmeter",
+                    "concurrent_users": "10",
+                    "think_time": "500",
+                    "load_tps": "10"
+                },
+                {
+                    "load_name": "bulkapi",
+                    "load_type": "jmeter",
+                    "concurrent_users": "NA",
+                    "think_time": "NA",
+                    "load_tps": "NA"
+                },
+                {
+                    "load_name": "PlatformEvents",
+                    "load_type": "jmeter",
+                    "concurrent_users": "5",
+                    "think_time": "500",
+                    "load_tps": "5"
+                },
+                {
+                    "load_name": "composite-rest-api-cisco",
+                    "load_type": "jmeter",
+                    "concurrent_users": "5",
+                    "think_time": "500",
+                    "load_tps": "5"
+                },
+                {
+                    "load_name": "soap-api-cisco",
+                    "load_type": "k6",
+                    "concurrent_users": "10",
+                    "think_time": "NA",
+                    "load_tps": "5"
+                },
+                {
+                    "load_name": "write-cisco",
+                    "load_type": "k6",
+                    "concurrent_users": "10",
+                    "think_time": "NA",
+                    "load_tps": "5"
+                },
+                {
+                    "load_name": "MDAPI-Workloads",
+                    "load_type": "jmeter",
+                    "concurrent_users": "NA",
+                    "think_time": "NA",
+                    "load_tps": "NA"
+                },
+                {
+                    "load_name": "MDAPI-Workloads-deploy",
+                    "load_type": "jmeter",
+                    "concurrent_users": "NA",
+                    "think_time": "NA",
+                    "load_tps": "NA"
+                },
+                {
+                    "load_name": "export-reports",
+                    "load_type": "jmeter",
+                    "concurrent_users": "NA",
+                    "think_time": "500",
+                    "load_tps": "5"
+                },
+                {
+                    "load_name": "HealthCheck-4",
+                    "load_type": "jmeter",
+                    "concurrent_users": "NA",
+                    "think_time": "NA",
+                    "load_tps": "NA"
+                }
+            ]
+        },
+        "output_metrics": {
+            "aggregated_metrics": {
+                "log_record_type": "ALL Logs",
+                "count": "2042038",
+                "avg_cpu_time": "138.53",
+                "total_app_cpu": "282883524",
+                "avg_runtime": "226.52",
+                "total_runtime": "462562448",
+                "avg_db_total_time": "63.02",
+                "total_db_time": "128689235",
+                "avg_allocated_memory_mb": "55.49",
+                "total_allocated_memory_mb": "113312689"
+            },
+            "individual_metrics": [
+                {
+                    "log_record_type": "A",
+                    "count": "389521",
+                    "avg_cpu_time": "100.74",
+                    "total_app_cpu": "39240346",
+                    "avg_runtime": "198.98",
+                    "total_runtime": "77506889",
+                    "avg_db_total_time": "70.22",
+                    "total_db_time": "27352165",
+                    "avg_allocated_memory_mb": "20.12",
+                    "total_allocated_memory_mb": "7837163"
+                },
+                {
+                    "log_record_type": "L",
+                    "count": "39568",
+                    "avg_cpu_time": "22.91",
+                    "total_app_cpu": "906503",
+                    "avg_runtime": "65.67",
+                    "total_runtime": "2598431",
+                    "avg_db_total_time": "36.42",
+                    "total_db_time": "1441067",
+                    "avg_allocated_memory_mb": "3.58",
+                    "total_allocated_memory_mb": "141653"
+                },
+                {
+                    "log_record_type": "R",
+                    "count": "17578",
+                    "avg_cpu_time": "1301.97",
+                    "total_app_cpu": "22886029",
+                    "avg_runtime": "3079.81",
+                    "total_runtime": "54136900",
+                    "avg_db_total_time": "1588.49",
+                    "total_db_time": "27922477",
+                    "avg_allocated_memory_mb": "1634.27",
+                    "total_allocated_memory_mb": "28727198"
+                },
+                {
+                    "log_record_type": "U",
+                    "count": "1022228",
+                    "avg_cpu_time": "107.52",
+                    "total_app_cpu": "109909955",
+                    "avg_runtime": "170.06",
+                    "total_runtime": "173840094",
+                    "avg_db_total_time": "43.52",
+                    "total_db_time": "44487363",
+                    "avg_allocated_memory_mb": "26.97",
+                    "total_allocated_memory_mb": "27569489"
+                },
+                {
+                    "log_record_type": "V",
+                    "count": "23976",
+                    "avg_cpu_time": "599.12",
+                    "total_app_cpu": "14364501",
+                    "avg_runtime": "650.79",
+                    "total_runtime": "15603341",
+                    "avg_db_total_time": "25.37",
+                    "total_db_time": "608271",
+                    "avg_allocated_memory_mb": "221.29",
+                    "total_allocated_memory_mb": "5305649"
+                },
+                {
+                    "log_record_type": "a",
+                    "count": "17934",
+                    "avg_cpu_time": "1086.87",
+                    "total_app_cpu": "19491927",
+                    "avg_runtime": "1668.54",
+                    "total_runtime": "29923596",
+                    "avg_db_total_time": "261.30",
+                    "total_db_time": "4686154",
+                    "avg_allocated_memory_mb": "317.37",
+                    "total_allocated_memory_mb": "5691714"
+                },
+                {
+                    "log_record_type": "apars",
+                    "count": "34005",
+                    "avg_cpu_time": "364.14",
+                    "total_app_cpu": "12382581",
+                    "avg_runtime": "394.85",
+                    "total_runtime": "13426874",
+                    "avg_db_total_time": "12.54",
+                    "total_db_time": "426423",
+                    "avg_allocated_memory_mb": "63.42",
+                    "total_allocated_memory_mb": "2156597"
+                },
+                {
+                    "log_record_type": "aprst",
+                    "count": "497228",
+                    "avg_cpu_time": "128.12",
+                    "total_app_cpu": "63704851",
+                    "avg_runtime": "192.13",
+                    "total_runtime": "95532416",
+                    "avg_db_total_time": "43.89",
+                    "total_db_time": "21823337",
+                    "avg_allocated_memory_mb": "71.55",
+                    "total_allocated_memory_mb": "35576663"
+                }
+            ]
+        }
+    }
+}
